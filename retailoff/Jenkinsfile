@@ -18,7 +18,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clonar el código fuente desde el repositorio
-                git url: 'https://github.com/Wildesdar37/retail-off.git', branch: 'main'
+                git url: 'https://github.com/Wildesdar37/retail-off-eva1.git', branch: 'main'
             }
         }
 
